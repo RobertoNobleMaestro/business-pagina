@@ -1,0 +1,88 @@
+todo a la izquierda
+clear: both;
+float: left;
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        width: 100%;
+        height: 100%;
+        }
+        h1{
+        font-size: 60px;
+        width: 100%;
+        }
+        .text2{
+            font-family: 'Roboto', sans-serif;    
+            font-size: 35px;
+            text-align: start;
+            color: grey;
+        }
+        h3{
+            font-family: 'Roboto', sans-serif;    
+            font-size: 50px;
+            text-align: start;
+        }
+        
+        }
+        .letraP{
+            text-align: center;
+            font-family: 'Lato', sans-serif;    
+            font-size: 30px;
+            text-align: start;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        #paddin{
+            padding: 30px;   
+         }
+         .row{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .row2{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .height{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+
+        .column-3{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .column-4{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .column-5{
+            width: 25%;
+            height: 100%;
+            border: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        
+        .estilo2{
+            padding-right: 0px;
+            padding: 20px;
+        }
+        
+        #estilo3{
+            padding-bottom: 10px;
+            height: 400px;
+        }
+        
+        img{
+        width: max-content;
+        align-items: center;
+        margin-right: 40px;
+        }
+
+
